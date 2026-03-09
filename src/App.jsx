@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import Restaurant from "./Restaurant";
+import Light from "./TCCBooksLight";
 
 const C = {
   primary: "#1B4332",
@@ -978,6 +979,5 @@ export default function App() {
   };
 
   return (
-    <Restaurant/>
-  );
+  <Light/>  );
 }
